@@ -3,7 +3,6 @@ func runningSum(nums []int) []int {
 	for i, val := range nums {
 		prev = prev + val
 		nums[i] = prev
-
 	}
 	return nums
 }
